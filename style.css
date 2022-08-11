@@ -1,0 +1,323 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clrFix {
+    clear: both;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+}
+
+/* Home  */
+.home {
+    background-image: url(img/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.home-cap {
+    text-align: center;
+    color: #fff;
+    margin-top: 55px;
+    padding-top: 55px;
+}
+
+
+.nav-logo {
+    width: 14%;
+    float: left;
+    margin-top: 10px;
+}
+
+.nav-logo img {
+    width: 100%;
+}
+
+.nav-links ul {
+    float: right;
+    margin-top: 10px;
+}
+
+.nav-links ul li {
+    list-style-type: none;
+    float: left;
+    padding: 12px;
+}
+
+.nav-links ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 88%;
+    margin: auto;
+}
+
+.home-cap p {
+    font-size: 22px;
+}
+
+.home-cap h1 {
+    font-size: 52px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.home-cap .btn {
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    margin: 20px 5px;
+}
+
+.home-cap .btn1 {
+    background-color: #8e7754;
+    border-width: 0px;
+}
+
+.home-cap .btn2 {
+    background-color: transparent;
+    border: solid 2px white;
+}
+
+/* About */
+
+.about {
+    padding: 55px 0px;
+
+
+    color: #686868;
+}
+
+.about h2 {
+    color: black;
+}
+
+.about-img {
+    width: 37%;
+    float: left;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-cap {
+    width: 44%;
+    float: right;
+    font-size: 17px;
+    text-align: left;
+    margin-top: 19px;
+    margin-right: 19px;
+}
+
+.about-cap p {
+    margin: 19px 0px;
+}
+
+.about-list {
+    text-align: left;
+}
+
+.about-list ul li {
+    padding: 13px;
+}
+
+
+/* Our Location */
+.offer {
+
+    background-color: #F8F8F8;
+    padding: 55px 0px;
+
+}
+
+.offer-cap {
+    width: 40%;
+    float: left;
+    text-align: left;
+    margin: 50px 33px;
+    color: #686868;
+}
+
+.offer-cap h2 {
+    color: black;
+}
+
+.offer-img {
+    width: 50%;
+    float: right;
+}
+
+.offer-img img {
+    width: 100%;
+}
+
+.para {
+    margin: 30px 0px;
+}
+
+/* Our Baking*/
+.baking {
+    text-align: center;
+    padding: 55px 0px;
+}
+
+
+.meal {
+    width: 33.3333333%;
+    float: left;
+    padding: 20px;
+}
+
+.meal img {
+    width: 100%;
+}
+
+.meal p {
+    color: #686868;
+}
+
+
+/* Blog */
+.blog {
+    padding: 55px 0px;
+    background-color: #F8F8F8;
+}
+
+.blog-cap {
+    width: 50%;
+    float: left;
+}
+
+.blog-map {
+    width: 40%;
+    float: right;
+}
+
+
+
+
+
+/* contact  */
+.contact {
+    text-align: left;
+    background-color: #353330;
+    padding: 55px 0px;
+
+
+}
+
+.aboutus {
+    width: 22%;
+    float: left;
+    margin: 13px;
+    vertical-align: top;
+}
+
+.aboutus h3 {
+    margin: 15px 0px 0px;
+    color: white;
+}
+
+.aboutus p {
+    margin: 30px 0px;
+    color: #dbdbdb;
+    line-height: 27px;
+
+}
+
+.aboutus ul {
+    color: #dbdbdb;
+    margin: 15px 0px 0px;
+    list-style-type: none;
+}
+
+.aboutus ul li {
+    margin: 30px 0px;
+    color: #dbdbdb;
+    line-height: 27px;
+    border-bottom: #5f5f5f solid 1px;
+}
+
+.item {
+    width: 25%;
+    float: left;
+    margin: 10;
+    background-image: url(img/contact-details-map.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.item h3 {
+    margin: 30px 0px 0px;
+    color: white;
+}
+
+.item ul {
+    color: #dbdbdb;
+    margin: 15px 0px 0px;
+    list-style-type: none;
+
+}
+
+.item ul li {
+    margin: 15px 0px;
+    border-bottom: #5f5f5f solid 1px;
+
+}
+
+.item ul li img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+    vertical-align: middle;
+}
+
+.item a {
+    color: #dbdbdb;
+}
+
+
+
+/* Footer  */
+footer {
+    background-color: #201e18;
+}
+
+.footer-cap {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding: 30px;
+}
+
+.footer-cap img {
+    width: 50%;
+}
+
+.footer-cap p {
+    color: #fff;
+    padding: 10px;
+}
